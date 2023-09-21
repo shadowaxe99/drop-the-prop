@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Drop Shipping Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to AI Drop Shipping Manager</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Dashboard</h2>
+            <a href="{{ url_for('dashboard') }}">Go to Dashboard</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2022 AI Drop Shipping Manager. All rights reserved.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
